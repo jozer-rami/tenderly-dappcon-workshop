@@ -44,7 +44,7 @@ export const test = base.extend<{
     // setup metamask
     await initialSetup(chromium, {
       secretWordsOrPrivateKey:
-        "test test test test test test test test test test test junk",
+        "offer fold fog bike honey submit area canal cushion weasel cotton stay",
       network: "ethereum",
       password: "Tester@1234",
       enableAdvancedSettings: true,

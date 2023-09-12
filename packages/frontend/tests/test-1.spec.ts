@@ -44,7 +44,7 @@ test("Test approving and executing a transaction", async ({ page }) => {
 
   await approveTransaction(0, page);
 
-  await metamask.switchAccount("Account 5");
+  await metamask.switchAccount("Account 3");
 
   await fundMultiSig(page);
 
